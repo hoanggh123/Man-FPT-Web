@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header-logo {
+    background-color: #1a1a1a;
+    height: 46px;
+}
+.logo-language {
+    display: flex;
+    /* background-color: salmon; */
+    height: 100%;
+    width: 104px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.language-list {
+    
+    display: flex;
+    align-items: center;
+}
+.language-icons {
+    color: #fff;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.language-name {
+    padding: 0 1px;
+}
+.logo-language:hover {
+    background-color: #413e3e;
+}
