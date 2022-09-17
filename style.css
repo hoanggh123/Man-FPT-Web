@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .header-logo {
+    justify-content: space-between;
+    display: flex;
     background-color: #1a1a1a;
     height: 46px;
 }
@@ -30,4 +32,15 @@
 }
 .logo-language:hover {
     background-color: #413e3e;
+}
+.logo-img {
+    display: flex;
+}
+.logo-img {
+    height: 25px;
+    align-items: center;
+    
+}
+.img-list {
+    height: 100%;
 }
