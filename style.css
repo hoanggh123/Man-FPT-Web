@@ -29,6 +29,8 @@
 }
 .language-name {
     padding: 0 1px;
+    color: #fff;
+    font-weight: 500;
 }
 .logo-language:hover {
     background-color: #413e3e;
@@ -37,10 +39,15 @@
     display: flex;
 }
 .logo-img {
-    height: 25px;
+    height: 100%;
     align-items: center;
+    padding: 0 4px;
+    
     
 }
 .img-list {
-    height: 100%;
+    height: 25px;
+    margin: 0 4px;
+    padding: 0 4px;
+    cursor: pointer;
 }
