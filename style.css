@@ -9,6 +9,14 @@ li {
 a {
   text-decoration: none;
 }
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  prom {
+      opacity: 1;
+  }
+}
 .header-heading {
   justify-content: space-between;
   display: flex;
@@ -138,5 +146,6 @@ a {
 }
 .item-link:hover {
   border-bottom: 5px solid #fff;
-  transition: 1s;
+  /* transition: 1s; */
+  animation: fadeIn linear 1s;
 }
