@@ -135,7 +135,6 @@ a {
 .images-logo {
   width: 60px;
   height: 60px;
-  background-color: #c70101;
 }
 .item-link {
   padding: 0 8px;
@@ -149,4 +148,16 @@ a {
   border-bottom: 5px solid #fff;
   /* transition: 1s; */
   animation: fadeIn linear 1s;
+}
+.home-item {
+  width: 685px;
+  height: 386px;
+  display: flex;
+  border: 1px solid #cccc;
+}
+.item-img {
+  width: 342px;
+  height: 100%;
+  
+  cursor: pointer;
 }
