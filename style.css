@@ -11,10 +11,10 @@ a {
 }
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   prom {
-      opacity: 1;
+    opacity: 1;
   }
 }
 .header-heading {
@@ -33,7 +33,7 @@ a {
   width: 104px;
   text-align: center;
   border-right: 1px solid #ccc;
- 
+
   align-items: center;
 }
 
@@ -149,15 +149,43 @@ a {
   /* transition: 1s; */
   animation: fadeIn linear 1s;
 }
+/*Container--App*/
+.app-contaier {
+  margin-top: 30px;
+}
 .home-item {
   width: 685px;
   height: 386px;
   display: flex;
-  border: 1px solid #cccc;
+  /* border: 1px solid #cccc; */
+  box-shadow: #9fa2a4 0px 0px 4px 0px;
+  border-radius: 10px;
 }
 .item-img {
   width: 342px;
   height: 100%;
+}
+.img {
+  width: 100%;
+  height: 100%;
   
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
   cursor: pointer;
+  
+}
+/* .item-img:hover {
+  overflow: hidden;
+}
+.item-img:hover .img {
+  transform: scale(1.2);
+} */
+.item-list {
+  padding: 8px 4px;
+}
+.heading-title {
+  font-size: 22px;
+  font-family: Segoe UI;
+  line-height: 22px;
+  margin: 16px 8px;
 }
